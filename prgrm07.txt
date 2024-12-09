@@ -1,0 +1,11 @@
+//write a c program to find the qutiont and remainder of two numbers using functions
+#include <stdio.h>
+int main()
+{
+    void div(int num1,int num2)
+    {
+        printf("qutiont and remainder of %d & %d is : %d \n",num1,num2,(num1/num2));
+    }
+    div(12,9);
+    div(10,20);
+}
