@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+    char prog_lang[]="c programing";
+    printf("%s \n",prog_lang);
+    //iteration of string using for loop
+    for(int i=0;i<13;i++)
+    {
+        printf("%c \n",prog_lang[i]);
+    }
+    return 0;
+}
